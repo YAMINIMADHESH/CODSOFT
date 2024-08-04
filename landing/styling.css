@@ -1,0 +1,193 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #232F3E;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#hero {
+    background : blue;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+#hero p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+#hero .btn {
+    background: #FF9900;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#speakers {
+    background-color: palevioletred;
+    color: black;
+    padding: 50px 0;
+}
+
+#speakers h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.speakers-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.speaker {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.speaker img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#agenda {
+    background-color: palevioletred;
+    color: black;
+    padding: 50px 0;
+}
+
+#agenda h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.agenda-details {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.agenda-day {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#registration {
+    background: palevioletred;
+    color: black;
+    padding: 50px 0;
+}
+
+#registration h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#registration form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#registration label {
+    font-size: 16px;
+}
+
+#registration input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+}
+
+#registration .btn {
+    background: #FF9900;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sponsors {
+    background: black no-repeat center center/cover;
+    color: white;
+    padding: 50px 0;
+}
+
+#sponsors h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsor-logos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer {
+    background: #232F3E;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
