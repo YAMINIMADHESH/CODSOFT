@@ -1,0 +1,66 @@
+body {
+    background-color: aqua;
+    margin: 10;
+    padding: 20;
+    line-height: 1.4;
+}
+
+header {
+    background: #e4d5f4;
+    color: #ghh;
+    padding: 1rem 10;
+    text-align: center;
+}
+
+header h1 {
+    margin: 10;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+#about img {
+    max-width: 160px;
+    border-radius: 80%;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 20;
+}
+
+#skills li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+#projects .project {
+    padding: 20;
+    margin: 1rem 0;
+}
+#resume a {
+    text-decoration: underline;
+    text-decoration color: blue;
+    color: #333;
+    font-weight: bold;
+}
+
+#contact p {
+    margin: 0.5rem 0;
+}
+
+footer {
+    background: #92a8d1;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
